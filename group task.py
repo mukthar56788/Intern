@@ -102,6 +102,7 @@ if choice in ['1', '2', '3', '4']:
             print("Result:", divide(num1, num2))
 else:
     print("Invalid choice.")
+<<<<<<< HEAD
 
 
 #Mileena
@@ -119,3 +120,22 @@ if is_palindrome(user_input):
 else:
     print("It's not a palindrome.")
 
+=======
+	
+	
+#Noel 
+
+
+n = 10
+a = 0
+b = 1
+next = b  
+count = 1
+
+while count <= n:
+    print(next, end=" ")
+    count += 1
+    a, b = b, next
+    next = a + b
+print()
+>>>>>>> 6c72b9914572d544e454bc0df432140b5dc886fa
