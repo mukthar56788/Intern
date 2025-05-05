@@ -102,3 +102,20 @@ if choice in ['1', '2', '3', '4']:
             print("Result:", divide(num1, num2))
 else:
     print("Invalid choice.")
+
+
+#Mileena
+#Palindrome or not
+def is_palindrome(value):
+    # Convert to string to handle both numbers and strings
+    value = str(value)
+    return value == value[::-1]
+
+# Example usage:
+user_input = input("Enter a string or number: ")
+
+if is_palindrome(user_input):
+    print("It's a palindrome!")
+else:
+    print("It's not a palindrome.")
+
