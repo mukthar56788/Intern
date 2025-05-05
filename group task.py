@@ -27,3 +27,33 @@ def guess_the_number():
 
 # Run the game
 guess_the_number()
+
+
+
+
+
+#Rohini 
+# Leetcode 2sum
+class Solution(object):
+
+    def twoSum(self, nums, target):
+        l2=[]
+
+        for i in range(len(nums)):
+            for j in range(i):
+                if target==nums[i]+nums[j]:
+                   l2.append(i)
+                   l2.append(j)
+        return l2
+
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
+
+l1=[2,7,11,15]
+tar=9
+s1=Solution()
+r=s1.twoSum(l1,tar)
+print(r)
