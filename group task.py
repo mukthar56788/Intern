@@ -102,3 +102,20 @@ if choice in ['1', '2', '3', '4']:
             print("Result:", divide(num1, num2))
 else:
     print("Invalid choice.")
+	
+	
+#Noel 
+
+
+n = 10
+a = 0
+b = 1
+next = b  
+count = 1
+
+while count <= n:
+    print(next, end=" ")
+    count += 1
+    a, b = b, next
+    next = a + b
+print()
