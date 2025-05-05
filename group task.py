@@ -105,20 +105,7 @@ else:
 <<<<<<< HEAD
 
 
-#Mileena
-#Palindrome or not
-def is_palindrome(value):
-    # Convert to string to handle both numbers and strings
-    value = str(value)
-    return value == value[::-1]
 
-# Example usage:
-user_input = input("Enter a string or number: ")
-
-if is_palindrome(user_input):
-    print("It's a palindrome!")
-else:
-    print("It's not a palindrome.")
 
 =======
 	
@@ -139,3 +126,19 @@ while count <= n:
     next = a + b
 print()
 >>>>>>> 6c72b9914572d544e454bc0df432140b5dc886fa
+
+
+#Mileena
+#Palindrome or not
+def is_palindrome(value):
+    # Convert to string to handle both numbers and strings
+    value = str(value)
+    return value == value[::-1]
+
+# Example usage:
+user_input = input("Enter a string or number: ")
+
+if is_palindrome(user_input):
+    print("It's a palindrome!")
+else:
+    print("It's not a palindrome.")
